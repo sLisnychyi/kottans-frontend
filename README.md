@@ -1,6 +1,6 @@
 # Kottans_frontend course 2019
 
-![cat] [https://pbs.twimg.com/profile_images/447832292023480320/VKvHw9c-.png]
+![cat](https://pbs.twimg.com/profile_images/447832292023480320/VKvHw9c-.png)
 
 
 ##Stage 0
