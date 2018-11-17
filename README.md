@@ -48,7 +48,7 @@
 
 ## 2. Linux CLI, and HTTP - **Done**
 
-[completed screenshots]()
+[completed screenshots](https://github.com/sLisnychyi/kottans-frontend/tree/master/task_linux_cli)
 
 #### useful information:
 - **~/.bash_profile** bash_profile information with exporting variables
