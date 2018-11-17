@@ -1,9 +1,9 @@
 # Kottans_frontend course 2019
 
-![cat](https://pbs.twimg.com/profile_images/447832292023480320/VKvHw9c-.png)
+<img src="https://pbs.twimg.com/profile_images/447832292023480320/VKvHw9c-.png" alt="drawing" width="200"/>
 
 
-##Stage 0
+## Stage 0
 ### General Basics
 
 - [+] <a href='https://github.com/kottans/frontend/blob/master/tasks/git-intro.md'>Git Basics</a>
@@ -46,3 +46,24 @@
 - **git log --graph --oneline ${branch1} ${branch2}** compares two branches and show differences on commit history 
 - **upstream/master** make communication between forked repository and remote repository on you local_repo
 
+## 2. Linux CLI, and HTTP - **Done**
+
+[completed screenshots]()
+
+#### useful information:
+- **~/.bash_profile** bash_profile information with exporting variables
+- **>>source ~/.bash_profile** to enable .bash_profile for current session
+- **alias p="pwd""** for creating different alias 
+- **history** history of commands
+- **export PS1=">>"** for changing command prompt    
+- **ls -alt** list of files -a hiden -l in long format -t sorted by the time were last modified
+
+
+#### new to me:
+- **env** show enviroment variables
+- **>** e.g. cat file1 > file2 redirect the standard output of file1 into file2
+- **>>** append content
+- **wc** word count command
+- **sort** sorts content of resource
+- **uniq** filter out adjacent, duplicates
+- **sed** e.g. sed 's/loss/win/' games.txt replace all instances of the word 'loss' with 'win'
