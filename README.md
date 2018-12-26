@@ -8,7 +8,7 @@
 
 - [+] <a href='https://github.com/kottans/frontend/blob/master/tasks/git-intro.md'>Git Basics</a>
 - [+] <a href='https://github.com/kottans/frontend/blob/master/tasks/linux-cli-http.md'>Linux CLI, and HTTP</a>
-- [ ] <a href='https://github.com/kottans/frontend/blob/master/tasks/git-collaboration.md'>VCS (hello gitty), GitHub and Collaboration</a>
+- [+] <a href='https://github.com/kottans/frontend/blob/master/tasks/git-collaboration.md'>VCS (hello gitty), GitHub and Collaboration</a>
 
 ### Front-End Basics
 - [ ] <a href='https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md'>Intro to HTML & CSS</a>
@@ -71,18 +71,22 @@
 
 ## 3. VCS (hello gitty), GitHub and Collaboration - **Done**
 
-[completed_screenshots]()
+[completed_screenshots](https://github.com/sLisnychyi/kottans-frontend/tree/master/task_git_collaboration)
 
 #### useful information:
 - **git log** for reviewing list of commits
 - **git show ${commit_hash}** to check description about some specific commit
 - **git tag** -> for taging commit indicate commit with release phase for example. e.g. (git tag -a v1.0 -m "..." | git tag -a v1.0 a87984)
+- **git fetch** -> retrieve commits from a remote repository's branch but it does not automatically merge the local branch with the remote
+- **git pull** -> git fetch + merge
 
 #### new to me:
 - **git log --oneline** show one commit per line
 - **git log --stat** display the files that have been changed in the commit, as well as the number of lines that have been added or deleted
 - **git log -p** display the actual changes made to a file
-- **git diff** display file diffirence with repository file version
+- **git log -p** display the actual changes made to a file
+- **git shortlog** display grouped commits by athor + additional params [-s to show just the number of commit], [-n to sort them numerically]
+- **git diff** display file difference with repository file version
 
 - **git --amend** changing the last commit/ add forgoten files to commit
 - **git revert** {commit_hash} reverting, creates a new commit that reverts or undos a previous commit
