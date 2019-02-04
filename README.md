@@ -98,3 +98,18 @@ git reset --soft HEAD~1 (changes from last commit will go to staging index);
 
 git reset --hard HEAD~1 (changes from last commit will go to trash)
 - **git branch backup** is doing before reseting commits
+
+## 4. Intro to HTML & CSS - **Done**
+
+[completed_screenshots](https://github.com/sLisnychyi/kottans-frontend/tree/master/task_html_css_intro)
+
+#### useful information:
+- research information about tags with examples - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+- pattern for tags <tag>content</tag>
+
+#### new to me:
+- interesting information about parent and child tag connections
+<parrent>
+    <children1>
+    <children2>
+<parrent>
